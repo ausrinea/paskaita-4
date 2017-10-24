@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans', monospace;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+}
+
+h1{
+    font-size: 30px;
+    color: #000;
+    margin-top: 20px;
+}
+p{
+    width: 40%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    vertical-align: top;
+}
+
+
+
